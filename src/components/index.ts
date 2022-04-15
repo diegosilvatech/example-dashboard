@@ -1,4 +1,5 @@
 /* PLOP_INJECT_IMPORT */
+import Chart from './Chart';
 import Form from './Form';
 import Input from './Input';
 import MediaMatch from './MediaMatch/MediaMatch';
@@ -10,6 +11,7 @@ import Icon from './Icon/Icon';
 
 export {
   /* PLOP_INJECT_EXPORT */
+  Chart,
   Form,
   Input,
   MediaMatch,

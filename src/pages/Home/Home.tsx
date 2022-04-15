@@ -1,4 +1,6 @@
-import { Form, Container } from 'components';
+import { Chart, Container } from 'components';
+
+import { manufacturerDataMock } from 'components/Chart/pieChartData';
 
 import * as s from './styles';
 
@@ -6,7 +8,7 @@ export default function Home() {
   return (
     <s.Wrapper>
       <Container>
-        <Form.FormLogin onSubmit={() => null} />
+        <Chart.Pie data={manufacturerDataMock} />
       </Container>
     </s.Wrapper>
   );
